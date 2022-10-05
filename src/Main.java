@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++)
-            System.out.println(i);
+        int contribution = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + contribution;
+
+
+
+            System.out.println("Месяц" + i + " ,cумма накоплений равна " + total + "рублей.");
+        }
     }
 }
