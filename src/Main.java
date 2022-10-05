@@ -8,7 +8,7 @@ public class Main {
 
 
 
-            System.out.println("Месяц" + i + " , cумма накоплений равна " + total + "рублей.");
+            System.out.println("Месяц" + i + " ,cумма накоплений равна " + total + "рублей.");
         }
     }
 }
